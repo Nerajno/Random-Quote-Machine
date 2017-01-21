@@ -1,5 +1,21 @@
+body {
+  background-image: url("https://c1.staticflickr.com/8/7335/26826408472_71e3998f8d_b.jpg" );
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding-top: 25px;
+    margin-top: 100px;
+    position: relative;
+    font-family: 'Unica One', cursive;
+    color :#336b87;
+    font-weight: bold;
+}
+
+/*width="1024" height="681" alt="cupofcoffee" may belong in the image url*/
+
 .wholepagebkgd{
    /* background: url("https://c1.staticflickr.com/8/7335/26826408472_71e3998f8d_b.jpg" width="1024" height="681" alt="cupofcoffee");*/
-   background-color: orange;
+   /*background-color: orange;*/
   text-align: center;
 }
