@@ -8,7 +8,7 @@ body {
     margin-top: 100px;
     position: relative;
     font-family: 'Unica One', cursive;
-    color :#336b87;
+    color: white;
     font-weight: bold;
 }
 
@@ -20,5 +20,21 @@ body {
 }
 
 button{
+  font-family: 'Karla', sans-serif;
   margin:20px;
+  border-radius: 5px;
+}
+
+.quotes {
+  background-color: grey;
+  width: 40%;
+  height: auto;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 25px;
+  padding: 15px;
+  border-color: turquoise;
+  border-style: solid;
+  border-radius: 7px;
+  color: white;
 }
