@@ -27,6 +27,7 @@ button{
 
 .quotes {
   background-color: grey;
+  /*filter: blur(5px); I can blur the background */
   width: 40%;
   height: auto;
   margin-left: auto;
