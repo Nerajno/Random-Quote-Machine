@@ -12,4 +12,11 @@ Day 2 - January 21, 2017 - fixed the background an the font and centered the con
 Day 3 - Watched a tutorial to get the basics and then made the necessary improvements
 
 Final Day - February 25, 2017..... I took too long, I am gonna fix the media queries by tomorrow an rewrite the README to a basic regular proficient outline.
-*Asap 
+
+Day 5 - February 26,2017 ....This crap..... I still got work to do, now it broke.
+        - So I have to modify the design some more
+        - Fix the tweet this button
+        - upload this to Codepen
+        * make this a log page and get and integrate  a README.md page using a template. 
+
+*Asap
