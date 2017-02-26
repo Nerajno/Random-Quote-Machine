@@ -8,9 +8,14 @@ $(document).ready(function(){
 
   function getQuote(){
     var url = "http://api.forismatic.com/api/1.0/?method=getQuote&key=457653&format=jsonp&lang=en&jsonp=?";
+
+
+    //  var url = "http://quotes.stormconsultancy.co.uk/quotes/1.json?callback=my_method";
+
+
    $.getJSON(url, function(data){
       $("#quote").html('"' + data.quoteText + '"');
-      $("#author").html('"' + data.quoteAuthor + '"');
+      $("#author").html('"  ' + data.quoteAuthor + '"');
    });
 
    $("#refreshBtn").on("click", function(){
