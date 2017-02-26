@@ -15,8 +15,12 @@ Final Day - February 25, 2017..... I took too long, I am gonna fix the media que
 
 Day 5 - February 26,2017 ....This crap..... I still got work to do, now it broke.
         - So I have to modify the design some more
+          *fonts
+          *colors
+            -> make button same color as quote input area. 
+
         - Fix the tweet this button
         - upload this to Codepen
-        * make this a log page and get and integrate  a README.md page using a template. 
+        * make this a log page and get and integrate  a README.md page using a template.
 
 *Asap
