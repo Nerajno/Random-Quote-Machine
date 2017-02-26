@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+<<<<<<< HEAD
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,39 +30,71 @@
 
   <!-- ninjascript --->
   <script src="js/ninjascript.js"></script>
+=======
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Random Quote Machine</title>
+
+    <!--Links for css-->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/rqm.css" rel="stylesheet" type="text/css">
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Karla:700i" rel="stylesheet">
+
+    <!--Jquery and JavaScript -->
+
+    <!-- Jquery CDN-->
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+
+    <!-- ninjascript --->
+    <script src="js/ninjascript.js"></script>
+>>>>>>> refs/remotes/origin/master
 
 </head>
+
 <body>
-  <!--wholepagebkgd -->
-  <div class="wholepagebkgd">
+    <!--wholepagebkgd -->
+    <div class="wholepagebkgd">
 
-    <!--Top Div-->
-    <div id="frosty"><h1>Random Quote Generator</h1></div>
+        <!--Top Div-->
+        <div id="frosty">
+            <h1>Random Quote Generator</h1></div>
 
-    <!--Second Div-->
-    <div id="frosty">
-      <div class="popfield"></div>
-      <!--buttons-->
-      <div id="refreshBtn">
-        <button><a class="btn btn-default btn-sm"><span class="fa fa-refresh"></span> New Quote</a></button>
-        <br/>
+        <!--Second Div-->
+        <div id="frosty">
+            <div class="popfield"></div>
+            <!--buttons-->
+            <div id="">
+                <button id="refreshBtn"><a class="btn btn-default btn-sm"><span class="fa fa-refresh"></span> New Quote</a></button>
+                <br/>
 
-        <div class="quotes">
-          <span class="quote"></span>
-          <span class="author"></span>
+                <div class="quotes">
+                    <span class="quote" id="quote"></span>
+                    <span class="author" id="author"></span>
+                </div>
+
+            </div>
+
+            <div class="">
+
+                <button><a class="btn btn-default btn-sm" href="https://twitter.com/nerajno" role="button" target="_blank"><span class="fa fa-twitter"></span> Follow me on Twitter</a></button>
+
+                <button><a class="btn btn-default btn-sm twitter-share-button" href="https://twitter.com/intent/" target="_blank"><span class="fa fa-retweet"></span> Tweet this quote </a></button>
+
+            </div>
+
         </div>
-
-      </div>
-
-      <div class="">
-
-        <button><a class="btn btn-default btn-sm" href="https://twitter.com/nerajno" role="button" target="_blank"><span class="fa fa-twitter"></span> Follow me on Twitter</a></button>
-
-        <button><a class="btn btn-default btn-sm twitter-share-button" href="https://twitter.com/intent/" target="_blank"><span class="fa fa-retweet"></span> Tweet this quote </a></button>
-
-      </div>
-
     </div>
-  </div>
 </body>
+
 </html>
