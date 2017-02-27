@@ -15,10 +15,30 @@ $(document).ready(function(){
       $("#author").html('"  ' + data.quoteAuthor + '"');
    });
 
+   //refresh button ..... it loops through all the quotes or rather it increments per loop.... need to fix
    $("#refreshBtn").on("click", function(){
      getQuote();
    });
+ //attempts 
+   $(".twitter-share-button").click(function(){
+      $(this).attr("href", 'https://twitter.com/intent/tweet?text=' + "#quoteText" + "#quoteAuthor");
+    });
+
 
   };
 });
 // this is tedious
+
+//this is the HTML
+/*
+<a class="twitter-share-button" href="http://twitter.com/share" target="_blank">
+     <button type="button" class="btn btn-primary">Tweet this!</button>
+    </a>
+*/
+
+// this is the JS
+/*
+$(".twitter-share-button").click(function(){
+   $(this).attr("href", 'https://twitter.com/intent/tweet?text=' + randomQuote);
+ });
+*/
