@@ -12,7 +12,7 @@ $(document).ready(function(){
 
    $.getJSON(url, function(data){
       $("#quote").html('"' + data.quoteText + '"');
-      $("#author").html('"  ' + data.quoteAuthor + '"');
+      $("#author").html(' - ' + data.quoteAuthor + '.');
    });
 
    //refresh button ..... it loops through all the quotes or rather it increments per loop.... need to fix
@@ -22,24 +22,9 @@ $(document).ready(function(){
  //attempts - 4
    $(".twitter-share-button").click(function(){
       window.open('https://twitter.com/intent/tweet?text=' + $("#quote").text()+ " " + $("#author").text());
-      //'http://twitter.com/intent/tweet?text=' + ('#quote').text + ('#author').text);
+      //Found a solution in someone else's code and tweaked it into mine. - hint(I can explain how it works if needed)
     });
-//I made this work now, I have to go to bed.  
+
 
   };
 });
-// this is tedious
-
-//this is the HTML
-/*
-<a class="twitter-share-button" href="http://twitter.com/share" target="_blank">
-     <button type="button" class="btn btn-primary">Tweet this!</button>
-    </a>
-*/
-
-// this is the JS
-/*
-$(".twitter-share-button").click(function(){
-   $(this).attr("href", 'https://twitter.com/intent/tweet?text=' + randomQuote);
- });
-*/
