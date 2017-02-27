@@ -19,11 +19,12 @@ $(document).ready(function(){
    $("#refreshBtn").on("click", function(){
      getQuote();
    });
- //attempts 
+ //attempts - 4
    $(".twitter-share-button").click(function(){
-      $(this).attr("href", 'https://twitter.com/intent/tweet?text=' + "#quoteText" + "#quoteAuthor");
+      window.open('https://twitter.com/intent/tweet?text=' + $("#quote").text()+ " " + $("#author").text());
+      //'http://twitter.com/intent/tweet?text=' + ('#quote').text + ('#author').text);
     });
-
+//I made this work now, I have to go to bed.  
 
   };
 });
