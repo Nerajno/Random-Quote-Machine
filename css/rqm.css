@@ -39,3 +39,7 @@ button{
   border-radius: 7px;
   color: white;
 }
+
+#refreshBtn {
+  color: black;
+}

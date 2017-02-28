@@ -25,4 +25,6 @@ Day 5 - February 26,2017 ....This crap..... I still got work to do, now it broke
 
 Asap
 
-Day 6 - February 27,2017 - Solved the tweet this button section.. 
+Day 6 - February 27,2017 - Solved the tweet this button section..
+
+Day 7 - Complete it and fixed the increments issue, still have the design and README issues to do; it however works thus its getting published.  
