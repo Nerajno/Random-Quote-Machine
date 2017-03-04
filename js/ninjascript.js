@@ -11,12 +11,12 @@ $(document).ready(function(){
     //  var url = "http://quotes.stormconsultancy.co.uk/quotes/1.json?callback=my_method";
 
    $.getJSON(url, function(data){
-      $("#quote").html('"' + data.quoteText + '"');
-      $("#author").html(' - ' + data.quoteAuthor + '.');
+      $("#quote").html('"' + data.quoteText + ' " ');
+      $("#author").html(' - ' + data.quoteAuthor + ' ');
    });
 
    //refresh button ..... it loops through all the quotes or rather it increments per loop.... need to fix
-   //Fixing the on("click") that it no long increments to one.("click"). - Thanks Kenan @Starbucks Fairburn on 28/28/2017  
+   //Fixing the on("click") that it no long increments to one.("click"). - Thanks Kenan @Starbucks Fairburn on 28/28/2017
    $("#refreshBtn").one("click", function(){
      getQuote();
    });
