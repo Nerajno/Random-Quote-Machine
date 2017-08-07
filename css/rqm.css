@@ -1,9 +1,10 @@
 body {
   background-image: url("https://c1.staticflickr.com/8/7335/26826408472_71e3998f8d_b.jpg" );
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  background-size: cover;
+  background-repeat:no-repeat;
+  -o-background-size: 100%;
     padding-top: 25px;
     margin-top: 100px;
     position: relative;
@@ -25,6 +26,44 @@ body {
     filter: blur(5px);
 }
 */
+
+.navbar-inverse{
+  font-family: 'Montserrat', sans-serif;
+  margin: auto;
+
+}
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover{
+  color:#3B81BF;
+  font-size: larger;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #3B81BF;
+}
+
+.dropdown{
+  color: #3B81BF;
+  text-transform:uppercase;
+}
+
+.dropdown-menu>li>a{
+  color: #3B81BF;
+  text-transform:uppercase;
+}
+
+.Twtbtn{
+  padding: 3px;
+  margin: 5px;
+  border-radius: 7px;
+  background-color: black;
+  border-color: black;
+}
+
+.btn-navbar{
+  background-color: #f0641f;
+  color: black;
+}
 
 
 button{
