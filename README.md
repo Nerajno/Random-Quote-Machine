@@ -29,3 +29,5 @@ Day 7 - Complete it and fixed the increments issue, still have the design and RE
 Day IDK - revisions to put on github pages and the great http vs https controversy is pissing me off
 
 Link to github pages : https://nerajno.github.io/Random-Quote-Machine/
+
+Fixed it on 8/8/17 - still need to link it the other projects. 
