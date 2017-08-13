@@ -30,4 +30,6 @@ Day IDK - revisions to put on github pages and the great http vs https controver
 
 Link to github pages : https://nerajno.github.io/Random-Quote-Machine/
 
-Fixed it on 8/8/17 - still need to link it the other projects. 
+Fixed it on 8/8/17 - still need to link it the other projects.
+
+Completed it 8/10/17 - Refactoring it when a framework is learned.  
