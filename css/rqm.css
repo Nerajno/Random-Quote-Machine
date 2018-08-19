@@ -20,13 +20,6 @@ body {
   text-align: center;
 }
 
-/**/
-/*.blurredbkgd {
-    -webkit-filter: blur(5px);
-    filter: blur(5px);
-}
-*/
-
 .navbar-inverse{
   font-family: 'Montserrat', sans-serif;
   margin: auto;
@@ -75,7 +68,7 @@ button{
 .presented-quote {
   background-color: grey;
   /*filter: blur(5px); I can blur the background */
-  width: 80%;
+  width: 60%;
   height: auto;
   margin-left: auto;
   margin-right:auto;
