@@ -58,7 +58,6 @@ body {
   color: black;
 }
 
-
 button{
   font-family: 'Karla', sans-serif;
   margin:20px;
@@ -83,4 +82,9 @@ button{
 
 #refreshBtn {
   color: black;
+}
+
+.container{
+  color: white;
+  width: 100%;
 }
