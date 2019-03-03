@@ -5,12 +5,13 @@ body {
   background-size: cover;
   background-repeat:no-repeat;
   -o-background-size: 100%;
-    padding-top: 25px;
-    margin-top: 100px;
-    position: relative;
-    font-family: 'Unica One', cursive;
-    color: white;
-    font-weight: bold;
+  padding-top: 25px;
+  margin-top: 100px;
+  position: relative;
+  font-family: 'Unica One', cursive;
+  color: white;
+  font-weight: bold;
+  height: 100vh;
 }
 
 /*width="1024" height="681" alt="cupofcoffee" may belong in the image url*/
@@ -87,4 +88,10 @@ button{
 .container{
   color: white;
   width: 100%;
+}
+
+h1{
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%
 }
