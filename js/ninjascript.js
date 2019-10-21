@@ -15,9 +15,8 @@ $(document).ready(function(){
    });
  //attempts - 4
    $(".twitter-share-button").click(function(){
-      window.open('https://twitter.com/intent/tweet?text=' + $("#quote").text()+ " " + $("#author").text());
-      break; //break needed to kill 
-      //Found a solution in someone else's code and tweaked it into mine. - hint(I can explain how it works if needed)
+      window.open('https://twitter.com/intent/tweet?text='+$("#quote").text()+" "+$("#author").text());
+      break; //break needed to kill multiple being opened when clicked
     });
 
 
