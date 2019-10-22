@@ -1,7 +1,7 @@
 ### Random-Quote-Machine
 
 A built out of the random quote machine for freeCodeCamp former curriculum.
-![alt text](https://raw.githubusercontent.com//nerajno/projectname/branch/path/to/img.png
+![alt text](https://raw.githubusercontent.com//nerajno/Random-Quote-Machine/needed_media/Random-Quote-Machine.png)
 
 ## Built With
 - Font Awesome version 4.5.0 and Bootstrap 3.3.6.
