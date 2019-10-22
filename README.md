@@ -2,6 +2,9 @@
 
 A built out of the random quote machine for freeCodeCamp former curriculum.
 
+![Screenshot of the Random Quote Machine](https://raw.githubusercontent.com//nerajno/Random-Quote-Machine/needed_media/Random-Quote-Machine.png)
+
+
 ## Built With
 - Font Awesome version 4.5.0 and Bootstrap 3.3.6.
 - Contains a background image from Pexel.org
