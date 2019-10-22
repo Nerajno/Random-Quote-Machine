@@ -6,7 +6,7 @@ $(document).ready(function(){
     var url = "https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?";
 
    $.getJSON(url, function(data){
-      $("#quote").html('"' + data.quoteText + ' " ');
+      $("#quote").html('"'+data.quoteText+' " ');
       $("#author").html(' - ' + data.quoteAuthor + ' ');
    });
   
@@ -16,7 +16,7 @@ $(document).ready(function(){
  //attempts - 4
    $(".twitter-share-button").click(function(){
       window.open('https://twitter.com/intent/tweet?text='+$("#quote").text()+" "+$("#author").text());
-      break; //break needed to kill multiple being opened when clicked
+      // break; //break needed to kill multiple being opened when clicked
     });
 
 
