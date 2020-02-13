@@ -33,3 +33,5 @@ Link to github pages : https://nerajno.github.io/Random-Quote-Machine/
 Fixed it on 8/8/17 - still need to link it the other projects.
 
 Completed it 8/10/17 - Refactoring it when a framework is learned.
+
+Refactored for readability => 02/13/2020

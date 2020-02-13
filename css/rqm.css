@@ -14,10 +14,8 @@ body {
   height: 100vh;
 }
 
-/*width="1024" height="681" alt="cupofcoffee" may belong in the image url*/
+
 .wholepagebkgd{
-   /* background: url("https://c1.staticflickr.com/8/7335/26826408472_71e3998f8d_b.jpg" width="1024" height="681" alt="cupofcoffee");*/
-   /*background-color: orange;*/
   text-align: center;
 }
 
@@ -67,7 +65,6 @@ button{
 
 .presented-quote {
   background-color: grey;
-  /*filter: blur(5px); I can blur the background */
   width: 60%;
   height: auto;
   margin-left: auto;
