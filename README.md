@@ -1,6 +1,6 @@
 ### Random-Quote-Machine
 
-A built out of the random quote machine for freeCodeCamp former curriculum.
+A build out of the random quote machine for freeCodeCamp former curriculum.
 
 ![Screenshot of the Random Quote Machine](https://github.com/Nerajno/Random-Quote-Machine/blob/master/needed_media/Random-Quote-Machine.png)
 
